@@ -1,2 +1,2 @@
-# SmartMoney-backend
+# smartmoney-backend
 backend repo for SmartMoney
