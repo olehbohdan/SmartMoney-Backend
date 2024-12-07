@@ -2,7 +2,7 @@ import mongoose from 'mongoose';  // Use import for Mongoose
 import { metadataSchema } from './Item.js'; 
 
 const UserSchema = new mongoose.Schema({
-  userId: { type: String, required: true },
+  userId: { type: String, required: true, unique: true },
   name: { type: String },
   email: { type: String, required: true, unique: true },
   createdAt: { type: Date, default: Date.now },

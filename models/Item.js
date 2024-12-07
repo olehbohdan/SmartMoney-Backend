@@ -1,11 +1,16 @@
 import mongoose from 'mongoose';
+import { transactionSchema } from './Transaction.js';
+import { balanceSchema } from './Balance.js';
 // Define your account schema
 const accountSchema = new mongoose.Schema({
     id: String,
+    balances: [balanceSchema],
     mask: String,
     name: String,
+    persistent_account_id: String,
     subtype: String,
-    type: String
+    type: String,
+    transactions: [transactionSchema],
 });
 
 const institutionSchema = new mongoose.Schema({
@@ -18,4 +23,7 @@ export const metadataSchema = new mongoose.Schema({
     institution: institutionSchema,
     linkSessionId: String,
     plaidAccessToken: String,
+    transactionsNextCursor: String,
+    transactionsHasMore: Boolean,
+    transactionsUpdateStatus: String,
 });
