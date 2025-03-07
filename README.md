@@ -66,7 +66,7 @@ The server runs by default on `http://localhost:3000`.
 This project includes CI pipelines for automated testing and deployment.
 
 ## Contributing
-Contributions are welcome! Create a branch, submit a pull request, and we'll review it promptly.
+This backend was for a school project and is not actively maintained.
 
 ## Organization Repository
 [smartmoney-backend GitHub Repository](https://github.com/WSU-4110/smartmoney-backend.git)
