@@ -69,7 +69,7 @@ This project includes CI pipelines for automated testing and deployment.
 Contributions are welcome! Create a branch, submit a pull request, and we'll review it promptly.
 
 ## Organization Repository
-[SmartMoney-Backend GitHub Repository](https://github.com/WSU-4110/smartmoney-backend.git)
+[smartmoney-backend GitHub Repository](https://github.com/WSU-4110/smartmoney-backend.git)
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details."
